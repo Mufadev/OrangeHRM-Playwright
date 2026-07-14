@@ -4,6 +4,8 @@ const LoginPage = require('../pages/LoginPage');
 const DashboardPage = require('../pages/DashboardPage');
 const loginData = require('../data/loginData');
 
+// CI Test - First Commit
+
 test('Login dengan credential valid', async ({ page }) => {
 
     const loginPage = new LoginPage(page);
