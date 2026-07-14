@@ -5,6 +5,7 @@ const DashboardPage = require('../pages/DashboardPage');
 const loginData = require('../data/LoginData');
 
 // CI Test - First Commit
+// Retry GitHub Actions
 
 test('Login dengan credential valid', async ({ page }) => {
 
