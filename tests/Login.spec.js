@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 
 const LoginPage = require('../pages/LoginPage');
 const DashboardPage = require('../pages/DashboardPage');
-const LoginData = require('../data/LoginData');
+const loginData = require('../data/LoginData');
 
 // CI Test - First Commit
 
